@@ -1,0 +1,27 @@
+.mylogo {
+    font-size: 40px;
+    background-color: green;
+}
+
+.navbar-light .navbar-brand {
+    color: ghostwhite;
+}
+
+h1 {
+    border-bottom-style: solid;
+}
+
+.big-container  {
+    background-size: cover;
+    background-image: url(https://img00.deviantart.net/6ee0/i/2008/131/7/8/crumpled_white_paper_texture_by_melemel.jpg);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
