@@ -7,52 +7,37 @@
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
     <!-- Navigation bar -->
-    <!-- this version, we'll do it as one box -->
-    <div class="container">
 
-        <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <div class="col-sm-2"> </div>
-
-            <div class="col-sm-10">
-
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div>
-                        <a class="navbar-brand mylogo" href="#">Annette Beatty</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-
-                    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-
+        <div class = "container ml-auto mr-auto">
+            <a class="navbar-brand mylogo" href="#">Annette Beatty</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
             </div>
-
-            <!-- <div class="col-sm-2"></div>   -->
-
         </div>
-
-    </div>
+        
+    </nav>
 
     <!-- About Me -->
     <div class="big-container">
@@ -63,7 +48,7 @@
             </div>
 
             <div class="col-sm-8 box-style">
-                <div class="box-style">  <!-- make sure nesting of divs are correct -->
+                <div class="box-style">  <!-- Container inside of the box -->
                     <h1>About Me</h1>
                     <div class="text-center">
                         <img src="https://www.placehold.it/200x200" class="rounded float-left" style="margin-right: 10px" />
@@ -94,8 +79,9 @@
         </div>
     </div>
 
-        <!-- Footer -->
-        <div class="footer">
+    <!-- Footer (not sticky) -->
+    <footer>
+    <div class="footer">
             <p>Copyright @</p>
-        </div>
+    </div>
 </body>
